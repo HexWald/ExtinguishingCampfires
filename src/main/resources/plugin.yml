@@ -1,0 +1,6 @@
+name: ExtinguishingCampfires
+version: 1.0
+main: hex.wald.ExtinguishingCampfiresPlugin
+api-version: 1.20
+author: HexWald
+description: Campfires can be extinguished by rain
