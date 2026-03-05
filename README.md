@@ -1,4 +1,4 @@
-# DousingCampfires
+# ExtinguishingCampfires
 
 <img width="1536" height="1024" alt="изображение" src="https://github.com/user-attachments/assets/426e0c38-0b70-4a2f-a9af-d9acde19c6fd" />
 
