@@ -21,9 +21,11 @@ will go out.
 
 ## Config example
 
+```
 chance: 0.15 
 radius: 10 
 check-interval-ticks: 100
+```
 
 ## Installation
 
