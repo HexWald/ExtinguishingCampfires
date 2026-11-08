@@ -1,5 +1,6 @@
 package hex.wald;
 
+import org.bukkit.HeightMap;
 import org.bukkit.Location;
 import org.bukkit.Sound;
 import org.bukkit.World;
@@ -76,7 +77,8 @@ final class RainCheck {
         }
 
         World world = block.getWorld();
-        if (world.getHighestBlockYAt(block.getLocation()) > block.getY() || roll.getAsDouble() >= chance) {
+        if (world.getHighestBlockYAt(block.getX(), block.getZ(), HeightMap.MOTION_BLOCKING) > block.getY()
+                || block.getHumidity() <= 0 || block.getTemperature() < 0.15 || roll.getAsDouble() >= chance) {
             return;
         }
 
