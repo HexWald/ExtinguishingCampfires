@@ -4,13 +4,13 @@ Rain can put out campfires and soul campfires near players. A roof keeps them dr
 
 ## Install
 
-Use JDK 21 and Maven to build the plugin.
+Use JDK 25 and Maven to build the plugin.
 
 ```sh
 mvn clean package
 ```
 
-Put `target/ExtinguishingCampfires-1.1.jar` in the server's `plugins` folder and restart. The plugin is built against Spigot 1.20.6.
+Put `target/ExtinguishingCampfires-1.1.1.jar` in the server's `plugins` folder and restart. The plugin builds against the Spigot 26.3 API.
 
 ## Settings
 

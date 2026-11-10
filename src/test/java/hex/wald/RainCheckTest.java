@@ -3,7 +3,6 @@ package hex.wald;
 import org.bukkit.Chunk;
 import org.bukkit.HeightMap;
 import org.bukkit.Location;
-import org.bukkit.Sound;
 import org.bukkit.World;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockState;
@@ -60,7 +59,7 @@ class RainCheckTest {
 
         verify(campfire).setLit(false);
         verify(block).setBlockData(campfire);
-        verify(world).playSound(location, Sound.BLOCK_FIRE_EXTINGUISH, 1f, 1f);
+        verify(world).playSound(location, "minecraft:block.fire.extinguish", 1f, 1f);
     }
 
     @Test

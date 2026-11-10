@@ -2,7 +2,6 @@ package hex.wald;
 
 import org.bukkit.HeightMap;
 import org.bukkit.Location;
-import org.bukkit.Sound;
 import org.bukkit.World;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockState;
@@ -84,7 +83,7 @@ final class RainCheck {
 
         campfire.setLit(false);
         block.setBlockData(campfire);
-        world.playSound(block.getLocation(), Sound.BLOCK_FIRE_EXTINGUISH, 1f, 1f);
+        world.playSound(block.getLocation(), "minecraft:block.fire.extinguish", 1f, 1f);
     }
 
     private record ChunkPosition(int x, int z) {
